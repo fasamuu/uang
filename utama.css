@@ -56,4 +56,5 @@
 .dashboard {
 margin-top: 150px;
 }
-/*Side bar End*/
+/*Side bar End*/    width: fit-content;
+    height: fit-content;
