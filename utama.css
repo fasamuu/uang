@@ -57,11 +57,86 @@
 margin-top: 150px;
 }
 /*Side bar End*/    width: fit-content;
+/*Side bar End*/
+
+/* Dashboard */
+
+.main-dashboard{
+    position: relative;
+    margin: -1050px 0px 0px 200px;
+    width: 85vw;
+    height: 100vh;
+    background-color: white;
+    overflow: hidden;
+}
+
+.user-title{
+    position: absolute;
+    font-family: "m-medium";
+    color: var(--purple-color);
+    margin: 80px 0px 0px 20px;
+}
+
+.user-title p{
+    font-size: 40px;
+}
+
+.bulan-dashboard{
+    position: absolute;
+    font-family: "m-medium";
+    color: black;
+    margin: 125px 0 0 25px;
+}
+
+.bulan-dashboard p{
+    font-size: 20px;
+    color: var(--purple-color);
+}
+/* Untuk Membuat Logo Segitiga via css */
+.triangle{
+    position: absolute;
+    margin: -20px 0 0 70px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 15px solid var(--purple-color);
+}
+/* Selesai */
+
+
+.dropdown-bulan{
+    position: absolute;
     display: none;
+    margin: 150px 0 0 60px;
+    font-family: "m-medium";
     width: fit-content;
     height: fit-content;
+}
+
+.dropdown-bulan ul li{
+    text-align:center;
+    margin: 10px;
+}
+
+.dropdown-bulan ul li a{
+    text-decoration: none;
+}
+
+.dropdown-bulan ul li a:hover {
+    color: var(--purple-color);
+}
+.dropdown-bulan li::marker{
+    /* Biar tanda buletnya transparan */
+    color: white;
+}
+
 .bulan-dashboard:hover + .dropdown-bulan{
     display: block;
 }
 
 .dropdown-bulan:hover{
+    display: block;
+}
+
+/* Dashboard end */
